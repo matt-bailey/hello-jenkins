@@ -2,8 +2,12 @@
 
 ssh app@178.62.2.105 <<EOF
   cd ~/hello-jenkins
-  git pull
-  npm install --production
+  git pull origin master
+  npm install
+  npm prune
+  bower install
+  bower prune
+  grunt --env=prod
   forever restartall
   exit
 EOF
