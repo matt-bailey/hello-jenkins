@@ -46,15 +46,6 @@ module.exports = function(grunt, data) {
       tasks: [
         'concurrent:imgFirst'
       ]
-    },
-
-    report: {
-      description: 'Styles reporting',
-      tasks: [
-        'scsslint',
-        'csscss',
-        'stylestats'
-      ]
-    },
+    }
   };
 };
