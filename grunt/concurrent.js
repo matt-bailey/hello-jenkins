@@ -63,6 +63,9 @@ module.exports = {
     'clean:tmp',
     'clean:modules'
   ],
+  prodNinth: [
+    'shell:deploy'
+  ],
 
   // Image tasks
   imgFirst: [

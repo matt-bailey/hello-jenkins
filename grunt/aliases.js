@@ -37,7 +37,8 @@ module.exports = function(grunt, data) {
         'concurrent:prodFifth',
         'concurrent:prodSixth',
         'concurrent:prodSeventh',
-        'concurrent:prodEighth'
+        'concurrent:prodEighth',
+        'concurrent:prodNinth'
       ]
     },
 

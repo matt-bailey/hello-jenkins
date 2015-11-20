@@ -3,11 +3,10 @@
 ssh app@178.62.2.105 <<EOF
   cd ~/hello-jenkins
   git pull origin master
-  npm install
+  npm install --production
   npm prune
   bower install
   bower prune
   grunt --env=prod
-  forever restartall
   exit
 EOF
